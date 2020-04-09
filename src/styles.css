@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+body{margin: 0 !important; padding: 0 !important; background-color: #000000;}
+
+body::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  /* Track */
+  body::-webkit-scrollbar-track {
+    background: #000; 
+  }
+   
+  /* Handle */
+  body::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  body::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

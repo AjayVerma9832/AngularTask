@@ -1,0 +1,80 @@
+.sec1{position: relative; width: 100%; height: 100vh;}
+.sec2{position: relative; width: auto; height: calc(100% - 100vh); padding: 20px;}
+.footer{position: fixed;
+    width: 100%;
+    color: #ffffff;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 20px;
+    background: #000;
+    font-family: monospace;
+    text-align: right;
+    padding-top: 5px;
+}
+
+.bg-sec{position: absolute; top: 0px; background-image: url("../assets/images/bg.jpg"); width: 100%; height: 100vh; background-size: 100% 100%;}
+.img-gradient {
+    position: absolute;
+    top: 0px;
+    width: 100%; height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.8)), color-stop(60%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.8)));
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    background-image: -moz- oldlinear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.header {position: absolute; top: 0px; left: 0px; right: 0px; width: auto; height: auto; padding: 35px 60px;}
+.header .logo{float: left; position: fixed;}
+.header .search {float: right;}
+.header .logo img{height: 40px;}
+
+.header .search  input{
+    border-radius: 5px;
+    padding: 5px;
+    background: #000;
+    border: 1px solid #ccc000;
+    color: #fff;
+}
+
+.sec2 .list1{ width: 100%; height: auto;  color: #fff;}
+.sec2 .list1 h3{font-family: monospace;}
+.sec2 .last{ padding-bottom:10px;}
+.sec2 .list1 .mvList1{display: flex; justify-content: space-between; overflow-x: scroll;}
+.sec2 .list1 .mvList1 img{padding: 0px 5px;}
+
+/* width */
+.sec2 .list1 .mvList1::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  /* Track */
+  .sec2 .list1 .mvList1::-webkit-scrollbar-track {
+    background: #000; 
+  }
+   
+  /* Handle */
+  .sec2 .list1 .mvList1::-webkit-scrollbar-thumb {
+    background: #888; cursor: pointer;
+  }
+  
+  /* Handle on hover */
+  .sec2 .list1 .mvList1::-webkit-scrollbar-thumb:hover {
+    background: #555; cursor: pointer;
+  }
+
+  .midTxt {
+    position: absolute;
+    color: #fff;
+    left: 0px;
+    right: 0px;
+    width: 45%;
+    margin: 15% auto auto;
+    text-align: center;
+  }
+  .midTxt h1{font-size: 3.125rem; font-family: monospace;}
+  .midTxt h2{font-size: 1.625rem; font-family: monospace;}
+  .midTxt .btn{cursor:pointer; background: #e50914; color: #fff; padding: 10px 20px; font-size: 22px; border: 1px solid #e50914; text-transform: uppercase;}
